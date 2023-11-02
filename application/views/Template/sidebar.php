@@ -16,16 +16,13 @@
                     </a>
                     <div class="collapse" id="collapseLayouts" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
                         <nav class="sb-sidenav-menu-nested nav">
-                            <a class="nav-link" href="layout-static.html">User</a>
+                            <a class="nav-link" href="<?php echo site_url('admin/user');?>">User</a>
                             <a class="nav-link" href="layout-sidenav-light.html">Surat Masuk</a>
                             <a class="nav-link" href="layout-sidenav-light.html">Surat keluar</a>
                             <a class="nav-link" href="layout-sidenav-light.html">Disposisi</a>
                         </nav>
                     </div>
-
-
                 </div>
-
         </nav>
     </div>
     <div id="layoutSidenav_content">

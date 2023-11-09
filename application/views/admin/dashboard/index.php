@@ -5,6 +5,7 @@
             <li class="breadcrumb-item"><a href="index.html">Dashboard</a></li>
             <li class="breadcrumb-item active">Static Navigation</li>
         </ol>
+        
         <div class="card mb-4">
             <div class="card-body">
                 <p class="mb-0">
@@ -16,9 +17,8 @@
                 </p>
             </div>
         </div>
+        
         <div style="height: 100vh"></div>
-        <div class="card mb-4">
-            <div class="card-body">When scrolling, the navigation stays at the top of the page. This is the end of the static navigation demo.</div>
-        </div>
+        <div class="card mb-4"><div class="card-body">When scrolling, the navigation stays at the top of the page. This is the end of the static navigation demo.</div></div>
     </div>
 </main>

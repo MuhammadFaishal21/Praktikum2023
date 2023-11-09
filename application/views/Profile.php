@@ -1,2 +1,2 @@
-<h1>Profile Us</h1>
-<p>Ini adalah halaman profile</p>
+<h1>profile us</h1>
+<p>Ini halaman profile</p>

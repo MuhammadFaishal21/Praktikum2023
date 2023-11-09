@@ -18,7 +18,7 @@
                         <nav class="sb-sidenav-menu-nested nav">
                             <a class="nav-link" href="<?php echo site_url('admin/user');?>">User</a>
                             <a class="nav-link" href="<?php echo site_url('admin/surat_masuk');?>">surat_masuk</a>
-                            <a class="nav-link" href="<?php echo site_url('admin/surat_ajuan');?>">surat_masuk</a>
+                            <a class="nav-link" href="<?php echo site_url('admin/surat_ajuan');?>">surat_ajuan</a>
                             <a class="nav-link" href="layout-sidenav-light.html">Disposisi</a>
                         </nav>
                     </div>

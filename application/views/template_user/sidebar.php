@@ -19,7 +19,7 @@
                             <a class="nav-link" href="<?php echo site_url('admin/user'); ?>">User</a>
                             <a class="nav-link" href="<?php echo site_url('admin/surat_masuk'); ?>">Surat Masuk</a>
                             <a class="nav-link" href="<?php echo site_url('surat_ajuan'); ?>">Surat Ajuan</a>
-                            <a class="nav-link" href="<?php echo site_url('templatesurat'); ?>">Template Surat</a>
+                            <a class="nav-link" href="<?php echo site_url('Templatesurat'); ?>">Template Surat</a>
                         </nav>
                     </div>
                     <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapsePages" aria-expanded="false" aria-controls="collapsePages">

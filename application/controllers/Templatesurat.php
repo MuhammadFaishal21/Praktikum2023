@@ -18,7 +18,22 @@ class Templatesurat extends CI_Controller {
         );
         $this->load->view('template_user/main',$data);
     }
+    public function add(){
+        $data = array(
+            'title' => 'Tambah Data Template surat',
+            'userlog'=> infoLogin(),
+            'content'=> 'Template_surt/add_form'
+        ); 
+        $this->load->view('template_user/main',$data);
+    }
     
+     public function save(){ 
+        $this->Template_model->saveSurat();
+        if($this->db->affected_rows()>0){
+            $this->session->set_flashdata("success","Data Surat Masuk Berhasil DiSimpan");
+        } 
+        redirect('Template_surat');
+    }
     public function surat_ajuan($id){
         $surat = $this->Template_model->getById($id);
         $nama = $surat->nama;

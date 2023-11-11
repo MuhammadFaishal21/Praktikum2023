@@ -3,7 +3,7 @@
         <h1 class="mt-4"></h1> 
         <ol class="breadcrumb mb-4"> 
             <li class="breadcrumb-item">
-                <a href="<?php echo site_url('surat_ajuan') ?>">Surat</a>
+                <a href="<?php echo site_url('admin/Templatesurat') ?>">Surat</a>
             </li> 
             <li class="breadcrumb-item active">
                 <?php echo $title ?>
@@ -12,7 +12,7 @@
         
         <div class="card mb-4"> 
             <div class="card-header"> 
-                <a href="<?php echo site_url('surat_ajuan/add') ?>"><i class="fas fa-plus"></i> Add New</a>
+                <a href="<?php echo site_url('admin/Templatesurat/add') ?>"><i class="fas fa-plus"></i> Add New</a>
             </div>
             <?php if ($this->session->flashdata('success')): ?>
                 <div class="alert alert-success" role="alert">
